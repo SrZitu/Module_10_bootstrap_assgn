@@ -18,23 +18,23 @@ body {
   font-weight: 400;
   line-height: 28px;
   color: #565656;
-/* 
-  #96C2DB #E5EDF1 #FFFFF  #EFFAFD #4A8BDF */
+
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  color: #012970;
+h6 ,
+p{
+  color:  #03045e !important;
 }
 
          
 
 /* Button */
 .btn-bg {
-  background-color: #7BA1F5;
+  background-color: #03045e;
   color: #fff;
   display: inline-block;
   padding: 10px 40px;
@@ -269,13 +269,13 @@ h6 {
 
 
 .about li i{
-  color:#7BA1F5 ;
+  color: #03045e;
 }
 .section-header{
 margin-top: 100px;
 }
 .text-underline{
-  border-bottom:2px solid  #7BA1F5  ;
+  border-bottom:2px solid   #03045e;
   padding-bottom: 6px;
 }
 
@@ -327,7 +327,7 @@ margin-top: 100px;
 
 .services .icon-box i {
   float: left;
-  color: #7BA1F5;
+  color: #03045e;
   font-size: 40px;
 }
 
@@ -339,7 +339,7 @@ margin-top: 100px;
 }
 
 .services .icon-box h4 a {
-  color: #556270;
+  color: #03045e;
   transition: 0.3s;
 }
 
@@ -509,17 +509,17 @@ blog {
 }
 
 .blog .entry .entry-title a {
-  color: #7BA1F5; 
+  color: #03045e;
   transition: 0.3s;
 }
 
 .blog .entry .entry-title a:hover {
-  color: #556270;
+  color:  #03045e;
 }
 
 .blog .entry .entry-meta {
   margin-bottom: 15px;
-  color: #c1c8d0;
+  color: #03045e;
 }
 
 .blog .entry .entry-meta ul {
@@ -542,7 +542,7 @@ blog {
 }
 
 .blog .entry .entry-meta a {
-  color: #777777;
+  color:  #03045e;
   font-size: 14px;
   display: inline-block;
   line-height: 1;
@@ -559,7 +559,7 @@ blog {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #7BA1F5; 
+  background:  #03045e; 
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -587,7 +587,7 @@ blog {
 }
 
 .blog .entry .entry-content blockquote p {
-  color: #444444;
+  color:  #03045e;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -726,7 +726,7 @@ blog {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-  background: #7BA1F5; 
+  background:  #03045e;
 }
 
 .blog .blog-pagination li.active a,
@@ -777,7 +777,7 @@ blog {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #7BA1F5;
+  background:  #03045e;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -802,17 +802,17 @@ blog {
 }
 
 .blog .sidebar .categories ul a {
-  color: #556270;
+  color: #03045e;
   transition: 0.3s;
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #7BA1F5;
+  color:  #9394e0; 
 }
 
 .blog .sidebar .categories ul a span {
   padding-left: 5px;
-  color: #aaaaaa;
+  color: #03045e;
   font-size: 14px;
 }
 
@@ -832,12 +832,12 @@ blog {
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: #556270;
+  color: #03045e;
   transition: 0.3s;
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #7BA1F5;
+  color:  #9394e0;
 }
 
 .blog .sidebar .recent-posts time {
@@ -845,7 +845,7 @@ blog {
   margin-left: 95px;
   font-style: italic;
   font-size: 14px;
-  color: #aaaaaa;
+  color: #03045e;
 }
 
 .blog .sidebar .tags {
@@ -862,7 +862,7 @@ blog {
 }
 
 .blog .sidebar .tags ul a {
-  color: #96a2af;
+  color: #03045e;
   font-size: 14px;
   padding: 6px 14px;
   margin: 0 6px 8px 0;
@@ -873,8 +873,8 @@ blog {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #7BA1F5;
-  background: #7BA1F5;
+  border: 1px solid  #9394e0;
+  background:  #9394e0;
 }
 
 .blog .sidebar .tags ul a span {
@@ -1316,7 +1316,7 @@ blog {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #7BA1F5;
+  color:  #03045e;
 }
 
 .contact .info p {
@@ -1335,7 +1335,7 @@ blog {
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #edeff1;
-  color: #7BA1F5;
+  color:  #03045e;
 }
 
 .contact .php-email-form {
@@ -1398,7 +1398,7 @@ blog {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #7BA1F5;
+  border-color:  #03045e;
 }
 
 .contact .php-email-form input {
@@ -1410,7 +1410,7 @@ blog {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #7BA1F5;
+  background:  #03045e;
   border: 0;
   padding: 10px 24px;
   color: #fff;
