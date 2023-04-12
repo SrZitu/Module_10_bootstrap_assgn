@@ -8,6 +8,9 @@ a {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+html, body {
+  overflow-x: hidden;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 body {
   font-family: "Poppins", sans-serif;
@@ -82,9 +85,11 @@ h6 {
 }
 
 /* Header */
+/* Set the default styles for the header */
 .header-area {
   padding: 20px 0;
 }
+
 .header {
   transition: all 0.5s;
   z-index: 997;
@@ -97,6 +102,49 @@ h6 {
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
+/* Make the header responsive for smaller screens */
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 10px 0;
+  }
+
+  .header.header-scrolled {
+    padding: 5px 0;
+  }
+
+  .navbar-toggler {
+    margin-right: 0;
+  }
+
+  .navbar-brand img {
+    max-width: 80px;
+  }
+
+  .mainmenu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-item.active-list {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 540px) and (max-height: 720px) {
+  .navbar-collapse {
+    max-height: 100%;
+    overflow-y: scroll;
+  }
+
+  .mainmenu {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item.active-list {
+    margin-bottom: 20px;
+  }
+}
 
 .mainmenu li {
   margin-left: 24px;
